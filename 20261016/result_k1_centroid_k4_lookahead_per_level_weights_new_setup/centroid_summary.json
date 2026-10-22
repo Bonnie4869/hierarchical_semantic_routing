@@ -1,0 +1,64 @@
+{
+  "method": "centroid",
+  "retrieval": "centroid",
+  "second_stage": null,
+  "score_fusion": "centroid_distance_only",
+  "documents": 898,
+  "labeled_documents": 898,
+  "query_weighting": "global_tfidf",
+  "topk1": null,
+  "topk2": 4,
+  "gate": "gold",
+  "lookahead": true,
+  "weights": [
+    0.12,
+    0.21,
+    0.67
+  ],
+  "weights_by_level": {
+    "1": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "2": [
+      0.33333333333333337,
+      0.33333333333333337,
+      0.33333333333333337
+    ],
+    "3": [
+      0.33333333333333337,
+      0.33333333333333337,
+      0.33333333333333337
+    ]
+  },
+  "lookahead_weight_policy": "scored_node_ddc_level",
+  "reg": 0.05,
+  "ground_cost": null,
+  "ot_max_terms": null,
+  "ot_embedding_weighting": null,
+  "ot_cost_normalization": null,
+  "max_cells": 200000000,
+  "setup_seconds": 23.133899417007342,
+  "query_seconds": 20.57930357020814,
+  "classification_seconds": 16.264313073595986,
+  "pipeline_seconds": 36.843616643804125,
+  "baseline_rss_mb": 1563.265625,
+  "sampled_peak_rss_mb": 2672.203125,
+  "full_path_accuracy": 0.051224944320712694,
+  "DL1_entered": 898,
+  "DL1_overall_accuracy": 0.42538975501113585,
+  "DL1_conditional_accuracy": 0.42538975501113585,
+  "DL1_topk2_hits": 668,
+  "DL1_topk2_recall": 0.7438752783964365,
+  "DL2_entered": 668,
+  "DL2_overall_accuracy": 0.18819599109131402,
+  "DL2_conditional_accuracy": 0.25299401197604793,
+  "DL2_topk2_hits": 349,
+  "DL2_topk2_recall": 0.5224550898203593,
+  "DL3_entered": 349,
+  "DL3_overall_accuracy": 0.11024498886414254,
+  "DL3_conditional_accuracy": 0.2836676217765043,
+  "DL3_topk2_hits": 184,
+  "DL3_topk2_recall": 0.5272206303724928
+}
