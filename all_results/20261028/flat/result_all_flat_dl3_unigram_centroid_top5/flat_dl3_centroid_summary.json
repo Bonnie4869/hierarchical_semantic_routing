@@ -1,0 +1,23 @@
+{
+  "method": "flat_global_dl3_centroid",
+  "documents": 4035,
+  "labeled_documents": 4035,
+  "dl3_candidates": 807,
+  "topk": 5,
+  "weights": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "top1_hits": 720,
+  "top1_accuracy": 0.17843866171003717,
+  "top5_hits": 1396,
+  "top5_recall": 0.3459727385377943,
+  "setup_seconds": 32.65038930019364,
+  "query_seconds": 130.31817771214992,
+  "classification_seconds": 2.3290046972688287,
+  "pipeline_seconds": 132.64718240941875,
+  "query_seconds_per_document": 0.0322969461492317,
+  "classification_seconds_per_document": 0.0005772006684681112,
+  "pipeline_seconds_per_document": 0.03287414681769981
+}
